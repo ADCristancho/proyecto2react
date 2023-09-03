@@ -41,7 +41,7 @@ if(coords) {
 }, [coords])
 
   return (
-      <div>
+      <div className='principal'>
         <WeatherCard
         weather = {weather}
         temp={temp}
