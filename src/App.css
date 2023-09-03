@@ -1,8 +1,8 @@
 body{
     
-    background-color: aqua;
-    background-image: url(./AMAZONAS.png);
+    background-image: url('./AMAZONAS.png');
     align-items: center;
+    
 }
 
 .contenido{
