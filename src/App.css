@@ -8,7 +8,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: url('./AMAZONAS.png');
+    background-image: url('https://www.nationalgeographic.com.es/medio/2022/09/16/selva-tropical-amazonica-ecuador_135ea5a5_1280x853.jpg');
     align-items: center;
     justify-content: center;
 }
