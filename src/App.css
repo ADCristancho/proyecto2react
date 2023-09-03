@@ -1,0 +1,55 @@
+body{
+    
+    background-color: aqua;
+    background-image: url(./AMAZONAS.png);
+    align-items: center;
+}
+
+.contenido{
+   margin-top: 320px;
+   margin-left: 145px;
+   font-size: 1.5em;
+   display: flex;
+    color: rgb(246, 242, 245);
+}
+
+.temperature{
+
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.info{
+
+    position: absolute;
+    margin-top: 200px;
+
+}
+
+.clouds{
+
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 155px;
+}
+
+button{
+    position: absolute; 
+    background-color: rgb(71, 71, 200);
+    margin-top: 250px;
+    margin-left: 250px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 12%;
+}
+
+button:hover{
+
+    cursor: pointer;
+    background-color: green;
+    transition-delay: initial;
+}
+
+
+
+
