@@ -4,58 +4,69 @@ body{
     
 }
 
-.principal{
+.principal {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     background-image: url('./AMAZONAS.png');
-    height: 100vh;
-    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenido{
-   margin-top: 320px;
-   margin-left: 145px;
+    display: grid;
+    width: 500px;
+    height: 500px;
    font-size: 1.5em;
-   display: flex;
     color: rgb(246, 242, 245);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(0, 0, 0, 0.307);
+    border-radius: 1em;
 }
 
-.temperature{
-
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 500px;
-}
-
-.info{
-
-    position: absolute;
-    margin-top: 200px;
+.contenidotitulo {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.clouds{
-
-    position: absolute;
-    margin-top: -95px;
-    margin-left: 195px;
+.contenidotemp {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
 }
 
-button{
-    position: absolute; 
+.contenidoboton {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenidoboton button {
+    width: 8rem;
+    height: 3rem;
     background-color: rgb(71, 71, 200);
-    margin-top: 250px;
-    margin-left: 250px;
-    padding: 15px 15px 15px 15px;
-    border-radius: 12%;
+    border-radius: 1em;
 }
 
-button:hover{
+.contenidoboton button:hover{
 
     cursor: pointer;
     background-color: green;
     transition-delay: initial;
 }
 
+.contenidoinfo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
